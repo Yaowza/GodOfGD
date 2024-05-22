@@ -8,8 +8,8 @@ I.I
 
 I.II
 - le BP_FirstPersonProjectile ne doit plus rebondir
-- le BP_FirstPersonProjectile se detruit a l'impact
-- le BP_FirstPersonProjectile spawn un niagara emiter au moment où il est detruit (prendre un emitter par defaut type burst)
+- le BP_FirstPersonProjectile se détruit à l'impact
+- le BP_FirstPersonProjectile spawn un niagara emiter au moment où il est détruit (prendre un emitter par defaut type burst)
 
 ### Helper I
 - pour creer un niagara system : FX > niagara system > new system from selected emitters > Omnidirectional burst
@@ -19,11 +19,11 @@ I.II
 
 ## II) Séquencer (5 pts)
 
-II.I) créer une sequencer qui modifie le niveau et donne accàs au joueur à une nouvelle zone
+II.I) Créer une sequencer qui modifie le niveau et donne accàs au joueur à une nouvelle zone
 
-II.II) créer une acteur interactif qui servira à déclencher cette sequence
+II.II) Créer une Acteur interactif qui servira à déclencher cette sequence
 
-II.III) ajouter une action d'interaction au BP_FirstPersonCharacter sur la touche E
+II.III) Ajouter une action d'intéraction au BP_FirstPersonCharacter sur la touche E
 
 ### Helper II
 - C'est une bonne idée d'y aller en SphereTraceByChanel avec une Interface car il y aura un autre element interactif dans la 3eme partie (le coffre)
