@@ -38,6 +38,7 @@ Reproduire la mécanique de coffre runique de God of war
 - On peut convertir des boolean en int avec le node toInt
 - L'event dispatcher est votre ami
 - Il serait interessant de pouvoir utiliser ce systeme de lock sous la forme d'un bp_component
+- On peut editer un point de pivot dans unreal via le mode modeling
 
 ---
 Exemple de rendu
